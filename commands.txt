@@ -1,0 +1,17 @@
+Wallet Creation:
+========================================
+./mnee-man -wallets <x>  
+
+where <x> is the number of wallets to create.
+
+
+FOR FUNDING WALLETS AFTER CREATION
+=========================================
+./mnee-man -wif <x> -address <y> -mneeUrl <z> -fundAmount <a> -fund true 
+
+where <x> is the sender wif with <y> the corresponding address related to the wif, <z> is the base-url for the env you are testing and <a> being the fund amount for each address in the wallets.
+
+=========================================
+./mnee-man -mneeUrl "https://stg-api-cosigner.mnee.net" -parallel 100 -partial true 
+
+where <x> is the number of threads to use for creating hexes. 
