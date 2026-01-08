@@ -1,7 +1,3 @@
-# Large data files
-wallets*.json
-rawTx*.json
-
 # Git internals safety
 .git/
 
